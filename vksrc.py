@@ -1,5 +1,4 @@
 import vk
-import requests
 import sqlite3
 import xlwt
 from tqdm import tqdm
