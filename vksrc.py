@@ -127,7 +127,6 @@ ws.write(0, 3, 'Город', style)
 
 for d in range(1, len(data)):
 	if ''!=data[d][3]:
-		print(data[d])
 		user = data[d]
 		ws.write(d, 0, user[1]+' '+user[2], style)
 		ws.write(d, 1, user[3], style)
